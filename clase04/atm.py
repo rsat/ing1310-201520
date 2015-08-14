@@ -14,7 +14,7 @@ Recuerdo:
 
 La siguiente operación:
 a = a + 4
-es análoga a está
+es análoga a esta
 a += 4
 
 y funciona de la misma forma con cualquier operador, es decir,
