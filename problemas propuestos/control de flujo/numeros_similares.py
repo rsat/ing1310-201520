@@ -21,7 +21,16 @@ Ingrese divisor: 5
 True
 Desea comprobar si otros números son similares(s/n)? ...
 ...
-
-
-
 """
+
+opc = "s"
+while opc == "s":
+    a = int(raw_input("Ingrese a: "))
+    b = int(raw_input("Ingrese b: "))
+    divisor = int(raw_input("Ingrese divisor: "))
+    if (a % divisor == 0 and b % divisor == 0) or (a % divisor != 0 and b % divisor != 0):
+        print True
+    else:
+        print False
+    opc = raw_input("Desea calcular si otro numero es similar(s/n)?")
+print "Programa terminado"
