@@ -50,7 +50,8 @@ con coordenadas 2, 2 y ancho 3 y largo 4
 con coordenadas -7, -2 y ancho 4 y largo 2
 
 Su programa deberá generar un archivo resultados.txt donde en su interior deberá contener en cada línea True o False
-dependiendo si el primer rectángulo que aparece en el archivo rectangulos.txt se intersecta con los rectángulos restantes
+dependiendo si el primer rectángulo que aparece en el archivo rectangulos.txt se intersecta en el plano con los
+rectángulos restantes
 
 En la primera línea del archivo resultados.txt se encontrará el valor para el primer rectángulo y el segundo, luego en
 la segunda línea el valor para el primer rectángulo y el tercero, y así sucesivamente.
