@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 ing1310-201520 02/09/2015 Ricardo Sat
+
+Programa que recibe el nombre de un archivo e imprime True o False
+dependiendo si el archivo está ordenado no estricto descendientemente
 """
 
 
@@ -22,7 +25,6 @@ while linea:
 
 archivo.close()
 print esDescendente
-
 
 
 ### Con for
