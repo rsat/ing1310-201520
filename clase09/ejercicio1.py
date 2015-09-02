@@ -18,6 +18,7 @@ while linea:
     copia.write(linea)
     linea = original.readline()
 original.close()
+copia.close()
 
 
 # con for
